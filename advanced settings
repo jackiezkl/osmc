@@ -1,0 +1,21 @@
+Save the following to a file, adapt the touchscreen calibration setting. Save file as /home/osmc/.kodi/userdata/advancedsettings.xml
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<advancedsettings>
+    <touchscreen>
+        <x_offset>-26</x_offset>
+        <y_offset>-58</y_offset>
+        <x_stretch_factor>0.411826</x_stretch_factor>
+        <y_stretch_factor>0.284401</y_stretch_factor>
+    </touchscreen>
+    <network>
+        <readbufferfactor>4.0</readbufferfactor>
+    </network>
+    <imageres>540</imageres>
+    <fanartres>720</fanartres>
+    <splash>false</splash>
+    <handlemounting>0</handlemounting>
+    <samba>
+       <clienttimeout>30</clienttimeout>
+    </samba>
+</advancedsettings>
