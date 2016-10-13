@@ -1,0 +1,12 @@
+sudo mv 1x1.png 
+/usr/share/kodi/addons/skin.estouchy/media/pointer_1x1.png
+custome skin is in:
+/home/osmc/.kodi/addons/
+
+sudo nano /home/osmc/.kodi/addons/skin.re-touched/16x9/Pointer.xml
+
+And replace all "width" and "height" values with 1 and all "texture" values with the name of the 1x1 texture:
+
+<width>1</width>
+<height>1</height>
+<texture>pointer_1x1.png</texture>
